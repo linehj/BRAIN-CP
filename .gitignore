@@ -216,3 +216,39 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# =========================
+# BRAIN-CP data and outputs
+# =========================
+
+# Medical image files
+*.nii
+*.nii.gz
+
+# NumPy / Python data files
+*.npy
+*.npz
+*.pkl
+*.pickle
+
+# Model checkpoints and weights
+*.pt
+*.pth
+*.ckpt
+*.model
+
+# BRAIN-CP generated maps
+occurrence_maps/
+*.probmap.npy
+*tumor_occurrence*.npy
+*tumor_sampling_probability*.npy
+
+# nnU-Net large outputs
+nnUNet_raw/
+nnUNet_preprocessed/
+nnUNet_results/
+
+# Logs and temporary outputs
+*.log
+tmp/
+temp/
